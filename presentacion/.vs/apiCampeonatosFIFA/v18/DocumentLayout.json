@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\presentacion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46328DBE-CE00-4448-927C-2295BF13D0FD}|..\\Dominio\\Dominio.csproj|c:\\catedra\\iu pascual bravo\\hp iii\\cursos\\curso 2026-2\\ejercicios\\proyecto api campeonatos fifa\\dominio\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5A486B2-EA11-FF1B-4446-47841369F50D}|presentacion.csproj|c:\\catedra\\iu pascual bravo\\hp iii\\cursos\\curso 2026-2\\ejercicios\\proyecto api campeonatos fifa\\presentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5A486B2-EA11-FF1B-4446-47841369F50D}|presentacion.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\Dominio\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\Dominio\\Class1.cs",
+              "ToolTip": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\Dominio\\Class1.cs",
+              "RelativeToolTip": "..\\Dominio\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T17:29:40.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\presentacion\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\presentacion\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T17:23:11.596Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

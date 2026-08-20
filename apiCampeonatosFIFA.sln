@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.1.11304.174 d18.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "presentacion", "presentacion\presentacion.csproj", "{D5A486B2-EA11-FF1B-4446-47841369F50D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apicampeonatosfifa.dominio", "Dominio\apicampeonatosfifa.dominio.csproj", "{46328DBE-CE00-4448-927C-2295BF13D0FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5A486B2-EA11-FF1B-4446-47841369F50D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A486B2-EA11-FF1B-4446-47841369F50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A486B2-EA11-FF1B-4446-47841369F50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A486B2-EA11-FF1B-4446-47841369F50D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46328DBE-CE00-4448-927C-2295BF13D0FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46328DBE-CE00-4448-927C-2295BF13D0FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46328DBE-CE00-4448-927C-2295BF13D0FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46328DBE-CE00-4448-927C-2295BF13D0FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B10A04E-40F1-41D8-847D-1C00498D6A97}
+	EndGlobalSection
+EndGlobal
