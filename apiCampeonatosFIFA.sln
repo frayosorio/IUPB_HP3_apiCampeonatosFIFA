@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "presentacion", "apicampeona
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apicampeonatosfifa.dominio", "apicampeonatosfifa.dominio\apicampeonatosfifa.dominio.csproj", "{D120A946-0883-FFA4-4570-26456B42B000}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apicampeonatosfifa.core", "apicampeonatosfifa.core\apicampeonatosfifa.core.csproj", "{31A721C5-0BD3-4CD0-818D-D53E0DC9915E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D120A946-0883-FFA4-4570-26456B42B000}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D120A946-0883-FFA4-4570-26456B42B000}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D120A946-0883-FFA4-4570-26456B42B000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31A721C5-0BD3-4CD0-818D-D53E0DC9915E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31A721C5-0BD3-4CD0-818D-D53E0DC9915E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31A721C5-0BD3-4CD0-818D-D53E0DC9915E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31A721C5-0BD3-4CD0-818D-D53E0DC9915E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
