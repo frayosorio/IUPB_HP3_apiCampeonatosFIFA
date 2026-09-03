@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 using apicampeonatosfifa.dominio;
-using apicampeonatosfifa.dominio.Dtos;
 
-namespace apicampeonatosfifa.core.repositorios
+namespace apicampeonatosfifa.core.servicios
 {
-    public interface IGrupoRepositorio
+    public interface IGrupoServicio
     {
         Task<IEnumerable<Grupo>> ObtenerCampeonato(int IdCampeonato);
 
@@ -18,8 +17,16 @@ namespace apicampeonatosfifa.core.repositorios
 
         Task<bool> Eliminar(int Id);
 
+        // Selecciones
+        Task<IEnumerable<GrupoSeleccion>> ObtenerGrupo(int IdGrupo);
+
+        Task<GrupoSeleccion> Agregar(GrupoSeleccion GrupoSeleccion);
+
+        Task<GrupoSeleccion> Modificar(GrupoSeleccion GrupoSeleccion);
+
+        Task<bool> Eliminar(int Id);
+
         // Tabla de Posiciones
         Task<IEnumerable<TablaPosicionDto>> ObtenerPosiciones(int Id);
-
     }
 }

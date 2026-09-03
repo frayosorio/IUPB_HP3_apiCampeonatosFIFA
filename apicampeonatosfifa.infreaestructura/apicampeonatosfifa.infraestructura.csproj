@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\apicampeonatosfifa.core\apicampeonatosfifa.core.csproj" />
     <ProjectReference Include="..\apicampeonatosfifa.dominio\apicampeonatosfifa.dominio.csproj" />
   </ItemGroup>
 
