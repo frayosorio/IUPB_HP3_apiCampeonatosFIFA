@@ -22,9 +22,14 @@ namespace apicampeonatosfifa.infraestructura.Repositorios
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<Ciudad>> Buscar(int IndiceDato, string Texto)
+        public async Task<IEnumerable<Ciudad>> Buscar(int IndiceDato, string Texto)
         {
-            throw new NotImplementedException();
+
+            return await contexto.Ciudades
+            .Where(ciudad => IndiceDato == 1 && ciudad.Nombre.Contains(Texto))
+            .Include(ciudad => ciudad.Pais)
+                .OrderBy(ciudad => ciudad.Nombre)
+            .ToArrayAsync();
         }
 
         public Task<bool> Eliminar(int Id)
@@ -37,20 +42,27 @@ namespace apicampeonatosfifa.infraestructura.Repositorios
             throw new NotImplementedException();
         }
 
-        public Task<Ciudad> Obtener(int Id)
+        public async Task<Ciudad> Obtener(int Id)
         {
-            throw new NotImplementedException();
+            return await contexto.Ciudades
+                .Include(ciudad => ciudad.Pais)
+                .FirstOrDefaultAsync(ciudad => ciudad.Id == Id);
         }
 
-        public Task<IEnumerable<Ciudad>> ObtenerPais(int IdPais)
+        public async Task<IEnumerable<Ciudad>> ObtenerPais(int IdPais)
         {
-            throw new NotImplementedException();
+            return await contexto.Ciudades
+                .Where(ciudad => ciudad.IdPais == IdPais)
+                .Include(ciudad => ciudad.Pais)
+                .OrderBy(ciudad => ciudad.Nombre)
+                .ToArrayAsync();
         }
 
         public async Task<IEnumerable<Ciudad>> ObtenerTodos()
         {
             return await contexto.Ciudades
-
+                .Include(ciudad => ciudad.Pais)
+                .OrderBy(ciudad => ciudad.Nombre)
                 .ToArrayAsync();
         }
     }

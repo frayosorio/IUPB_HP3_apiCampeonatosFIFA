@@ -21,12 +21,12 @@ namespace apicampeonatosfifa.infraestructura.Repositorios
 
         public async Task<IEnumerable<Campeonato>> Buscar(int IndiceDato, string Texto)
         {
-            if(IndiceDato<=2)
-            return await contexto.Campeonatos
-                .Where(campeonato => (IndiceDato == 1 && campeonato.Nombre.Contains(Texto)
-                || (IndiceDato == 2 && campeonato.Año == int.Parse(Texto))))
-                .ToArrayAsync();
-        else
+            if (IndiceDato <= 2)
+                return await contexto.Campeonatos
+                    .Where(campeonato => (IndiceDato == 1 && campeonato.Nombre.Contains(Texto)
+                    || (IndiceDato == 2 && campeonato.Año == int.Parse(Texto))))
+                    .ToArrayAsync();
+            else
                 return await contexto.CampeonatosPaises
                 .Where(campeonatopais => IndiceDato == 3 && campeonatopais.Pais.Nombre.Contains(Texto))
                 .Select(campeonatopais => campeonatopais.Campeonato)
