@@ -18,5 +18,16 @@ namespace apicampeonatosfifa.core.repositorios
         Task<Campeonato> Modificar(Campeonato Campeonato);
 
         Task<bool> Eliminar(int Id);
+
+        // Paises organizadores
+        Task<IEnumerable<CampeonatoPais>> ObtenerCampeonato(int IdCampeonato);
+
+        Task<CampeonatoPais> ObtenerPais(int IdCampeonato, int IdPais);
+
+        Task<CampeonatoPais> AgregarPais(CampeonatoPais CampeonatoPais);
+
+        Task<CampeonatoPais> ModificarPais(CampeonatoPais CampeonatoPais);
+
+        Task<bool> EliminarPais(int IdCampeonato, int IdPais);
     }
 }

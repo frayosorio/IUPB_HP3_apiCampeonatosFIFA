@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using apicampeonatosfifa.dominio;
+﻿using apicampeonatosfifa.dominio;
 
 namespace apicampeonatosfifa.core.repositorios
 {

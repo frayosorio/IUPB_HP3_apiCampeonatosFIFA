@@ -1,41 +1,38 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using apicampeonatosfifa.core.repositorios;
 using apicampeonatosfifa.dominio;
-using apicampeonatosfifa.core.;
 
 namespace apicampeonatosfifa.infraestructura.Repositorios
 {
-    public class SeleccionRepositorio: ISeleccionRepositorio
+    public class SeleccionRepositorio : ISeleccionRepositorio
     {
-        Task<IEnumerable<Seleccion>> ObtenerTodos()
+        public Task<Seleccion> Agregar(Seleccion Seleccion)
         {
-
+            throw new NotImplementedException();
         }
 
-        Task<Seleccion> Obtener(int Id)
+        public Task<IEnumerable<Seleccion>> Buscar(int IndiceDato, string Texto)
         {
-
+            throw new NotImplementedException();
         }
 
-        Task<IEnumerable<Seleccion>> Buscar(int IndiceDato, string Texto)
+        public Task<bool> Eliminar(int Id)
         {
-
+            throw new NotImplementedException();
         }
 
-        Task<Seleccion> Agregar(Seleccion Seleccion)
+        public Task<Seleccion> Modificar(Seleccion Seleccion)
         {
-
+            throw new NotImplementedException();
         }
 
-        Task<Seleccion> Modificar(Seleccion Seleccion)
+        public Task<Seleccion> Obtener(int Id)
         {
-
+            throw new NotImplementedException();
         }
 
-        Task<bool> Eliminar(int Id)
+        public Task<IEnumerable<Seleccion>> ObtenerTodos()
         {
-
+            throw new NotImplementedException();
         }
     }
 }

@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{31A721C5-0BD3-4CD0-818D-D53E0DC9915E}|apicampeonatosfifa.core\\apicampeonatosfifa.core.csproj|c:\\catedra\\iu pascual bravo\\hp iii\\cursos\\curso 2026-2\\ejercicios\\proyecto api campeonatos fifa\\apicampeonatosfifa.core\\servicios\\iseleccionservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31A721C5-0BD3-4CD0-818D-D53E0DC9915E}|apicampeonatosfifa.core\\apicampeonatosfifa.core.csproj|solutionrelative:apicampeonatosfifa.core\\servicios\\iseleccionservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2911531B-7F7B-FDE1-276A-65D5B9749677}|apicampeonatosfifa.infreaestructura\\apicampeonatosfifa.infraestructura.csproj|c:\\catedra\\iu pascual bravo\\hp iii\\cursos\\curso 2026-2\\ejercicios\\proyecto api campeonatos fifa\\apicampeonatosfifa.infreaestructura\\repositorios\\campeonatorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2911531B-7F7B-FDE1-276A-65D5B9749677}|apicampeonatosfifa.infreaestructura\\apicampeonatosfifa.infraestructura.csproj|solutionrelative:apicampeonatosfifa.infreaestructura\\repositorios\\campeonatorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31A721C5-0BD3-4CD0-818D-D53E0DC9915E}|apicampeonatosfifa.core\\apicampeonatosfifa.core.csproj|c:\\catedra\\iu pascual bravo\\hp iii\\cursos\\curso 2026-2\\ejercicios\\proyecto api campeonatos fifa\\apicampeonatosfifa.core\\servicios\\igruposervicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31A721C5-0BD3-4CD0-818D-D53E0DC9915E}|apicampeonatosfifa.core\\apicampeonatosfifa.core.csproj|solutionrelative:apicampeonatosfifa.core\\servicios\\igruposervicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31A721C5-0BD3-4CD0-818D-D53E0DC9915E}|apicampeonatosfifa.core\\apicampeonatosfifa.core.csproj|c:\\catedra\\iu pascual bravo\\hp iii\\cursos\\curso 2026-2\\ejercicios\\proyecto api campeonatos fifa\\apicampeonatosfifa.core\\repositorios\\icampeonatorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31A721C5-0BD3-4CD0-818D-D53E0DC9915E}|apicampeonatosfifa.core\\apicampeonatosfifa.core.csproj|solutionrelative:apicampeonatosfifa.core\\repositorios\\icampeonatorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2911531B-7F7B-FDE1-276A-65D5B9749677}|apicampeonatosfifa.infreaestructura\\apicampeonatosfifa.infraestructura.csproj|c:\\catedra\\iu pascual bravo\\hp iii\\cursos\\curso 2026-2\\ejercicios\\proyecto api campeonatos fifa\\apicampeonatosfifa.infreaestructura\\persistencia\\campeonatosfifacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2911531B-7F7B-FDE1-276A-65D5B9749677}|apicampeonatosfifa.infreaestructura\\apicampeonatosfifa.infraestructura.csproj|solutionrelative:apicampeonatosfifa.infreaestructura\\persistencia\\campeonatosfifacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2911531B-7F7B-FDE1-276A-65D5B9749677}|apicampeonatosfifa.infreaestructura\\apicampeonatosfifa.infraestructura.csproj|c:\\catedra\\iu pascual bravo\\hp iii\\cursos\\curso 2026-2\\ejercicios\\proyecto api campeonatos fifa\\apicampeonatosfifa.infreaestructura\\repositorios\\seleccionrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2911531B-7F7B-FDE1-276A-65D5B9749677}|apicampeonatosfifa.infreaestructura\\apicampeonatosfifa.infraestructura.csproj|solutionrelative:apicampeonatosfifa.infreaestructura\\repositorios\\seleccionrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31A721C5-0BD3-4CD0-818D-D53E0DC9915E}|apicampeonatosfifa.core\\apicampeonatosfifa.core.csproj|c:\\catedra\\iu pascual bravo\\hp iii\\cursos\\curso 2026-2\\ejercicios\\proyecto api campeonatos fifa\\apicampeonatosfifa.core\\repositorios\\iseleccionrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31A721C5-0BD3-4CD0-818D-D53E0DC9915E}|apicampeonatosfifa.core\\apicampeonatosfifa.core.csproj|solutionrelative:apicampeonatosfifa.core\\repositorios\\iseleccionrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31A721C5-0BD3-4CD0-818D-D53E0DC9915E}|apicampeonatosfifa.core\\apicampeonatosfifa.core.csproj|c:\\catedra\\iu pascual bravo\\hp iii\\cursos\\curso 2026-2\\ejercicios\\proyecto api campeonatos fifa\\apicampeonatosfifa.core\\repositorios\\igruposeleccionrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31A721C5-0BD3-4CD0-818D-D53E0DC9915E}|apicampeonatosfifa.core\\apicampeonatosfifa.core.csproj|solutionrelative:apicampeonatosfifa.core\\repositorios\\igruposeleccionrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31A721C5-0BD3-4CD0-818D-D53E0DC9915E}|apicampeonatosfifa.core\\apicampeonatosfifa.core.csproj|c:\\catedra\\iu pascual bravo\\hp iii\\cursos\\curso 2026-2\\ejercicios\\proyecto api campeonatos fifa\\apicampeonatosfifa.core\\servicios\\iseleccionservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31A721C5-0BD3-4CD0-818D-D53E0DC9915E}|apicampeonatosfifa.core\\apicampeonatosfifa.core.csproj|solutionrelative:apicampeonatosfifa.core\\servicios\\iseleccionservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31A721C5-0BD3-4CD0-818D-D53E0DC9915E}|apicampeonatosfifa.core\\apicampeonatosfifa.core.csproj|c:\\catedra\\iu pascual bravo\\hp iii\\cursos\\curso 2026-2\\ejercicios\\proyecto api campeonatos fifa\\apicampeonatosfifa.core\\servicios\\igruposervicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31A721C5-0BD3-4CD0-818D-D53E0DC9915E}|apicampeonatosfifa.core\\apicampeonatosfifa.core.csproj|solutionrelative:apicampeonatosfifa.core\\servicios\\igruposervicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31A721C5-0BD3-4CD0-818D-D53E0DC9915E}|apicampeonatosfifa.core\\apicampeonatosfifa.core.csproj|c:\\catedra\\iu pascual bravo\\hp iii\\cursos\\curso 2026-2\\ejercicios\\proyecto api campeonatos fifa\\apicampeonatosfifa.core\\repositorios\\igruporepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,22 +51,6 @@
       "RelativeMoniker": "D:0:0:{31A721C5-0BD3-4CD0-818D-D53E0DC9915E}|apicampeonatosfifa.core\\apicampeonatosfifa.core.csproj|solutionrelative:apicampeonatosfifa.core\\repositorios\\iciudadrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31A721C5-0BD3-4CD0-818D-D53E0DC9915E}|apicampeonatosfifa.core\\apicampeonatosfifa.core.csproj|c:\\catedra\\iu pascual bravo\\hp iii\\cursos\\curso 2026-2\\ejercicios\\proyecto api campeonatos fifa\\apicampeonatosfifa.core\\repositorios\\icampeonatorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31A721C5-0BD3-4CD0-818D-D53E0DC9915E}|apicampeonatosfifa.core\\apicampeonatosfifa.core.csproj|solutionrelative:apicampeonatosfifa.core\\repositorios\\icampeonatorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31A721C5-0BD3-4CD0-818D-D53E0DC9915E}|apicampeonatosfifa.core\\apicampeonatosfifa.core.csproj|c:\\catedra\\iu pascual bravo\\hp iii\\cursos\\curso 2026-2\\ejercicios\\proyecto api campeonatos fifa\\apicampeonatosfifa.core\\repositorios\\icampeonatopaisrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31A721C5-0BD3-4CD0-818D-D53E0DC9915E}|apicampeonatosfifa.core\\apicampeonatosfifa.core.csproj|solutionrelative:apicampeonatosfifa.core\\repositorios\\icampeonatopaisrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2911531B-7F7B-FDE1-276A-65D5B9749677}|apicampeonatosfifa.infreaestructura\\apicampeonatosfifa.infraestructura.csproj|c:\\catedra\\iu pascual bravo\\hp iii\\cursos\\curso 2026-2\\ejercicios\\proyecto api campeonatos fifa\\apicampeonatosfifa.infreaestructura\\persistencia\\campeonatosfifacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2911531B-7F7B-FDE1-276A-65D5B9749677}|apicampeonatosfifa.infreaestructura\\apicampeonatosfifa.infraestructura.csproj|solutionrelative:apicampeonatosfifa.infreaestructura\\persistencia\\campeonatosfifacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2911531B-7F7B-FDE1-276A-65D5B9749677}|apicampeonatosfifa.infreaestructura\\apicampeonatosfifa.infraestructura.csproj|c:\\catedra\\iu pascual bravo\\hp iii\\cursos\\curso 2026-2\\ejercicios\\proyecto api campeonatos fifa\\apicampeonatosfifa.infreaestructura\\repositorios\\seleccionrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2911531B-7F7B-FDE1-276A-65D5B9749677}|apicampeonatosfifa.infreaestructura\\apicampeonatosfifa.infraestructura.csproj|solutionrelative:apicampeonatosfifa.infreaestructura\\repositorios\\seleccionrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D120A946-0883-FFA4-4570-26456B42B000}|apicampeonatosfifa.dominio\\apicampeonatosfifa.dominio.csproj|c:\\catedra\\iu pascual bravo\\hp iii\\cursos\\curso 2026-2\\ejercicios\\proyecto api campeonatos fifa\\apicampeonatosfifa.dominio\\dtos\\tablaposiciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D120A946-0883-FFA4-4570-26456B42B000}|apicampeonatosfifa.dominio\\apicampeonatosfifa.dominio.csproj|solutionrelative:apicampeonatosfifa.dominio\\dtos\\tablaposiciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -66,63 +62,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IGrupoRepositorio.cs",
-              "DocumentMoniker": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.core\\repositorios\\IGrupoRepositorio.cs",
-              "RelativeDocumentMoniker": "apicampeonatosfifa.core\\repositorios\\IGrupoRepositorio.cs",
-              "ToolTip": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.core\\repositorios\\IGrupoRepositorio.cs",
-              "RelativeToolTip": "apicampeonatosfifa.core\\repositorios\\IGrupoRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CampeonatoRepositorio.cs",
+              "DocumentMoniker": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.infreaestructura\\Repositorios\\CampeonatoRepositorio.cs",
+              "RelativeDocumentMoniker": "apicampeonatosfifa.infreaestructura\\Repositorios\\CampeonatoRepositorio.cs",
+              "ToolTip": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.infreaestructura\\Repositorios\\CampeonatoRepositorio.cs",
+              "RelativeToolTip": "apicampeonatosfifa.infreaestructura\\Repositorios\\CampeonatoRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T17:38:23.085Z",
+              "WhenOpened": "2026-09-10T17:48:18.696Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IGrupoSeleccionRepositorio.cs",
-              "DocumentMoniker": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.core\\repositorios\\IGrupoSeleccionRepositorio.cs",
-              "RelativeDocumentMoniker": "apicampeonatosfifa.core\\repositorios\\IGrupoSeleccionRepositorio.cs",
-              "ToolTip": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.core\\repositorios\\IGrupoSeleccionRepositorio.cs",
-              "RelativeToolTip": "apicampeonatosfifa.core\\repositorios\\IGrupoSeleccionRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
+              "Title": "SeleccionRepositorio.cs",
+              "DocumentMoniker": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.infreaestructura\\Repositorios\\SeleccionRepositorio.cs",
+              "RelativeDocumentMoniker": "apicampeonatosfifa.infreaestructura\\Repositorios\\SeleccionRepositorio.cs",
+              "ToolTip": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.infreaestructura\\Repositorios\\SeleccionRepositorio.cs",
+              "RelativeToolTip": "apicampeonatosfifa.infreaestructura\\Repositorios\\SeleccionRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T17:39:04.239Z",
+              "WhenOpened": "2026-09-03T17:26:15.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "CampeonatosFIFAContext.cs",
+              "DocumentMoniker": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.infreaestructura\\Persistencia\\CampeonatosFIFAContext.cs",
+              "RelativeDocumentMoniker": "apicampeonatosfifa.infreaestructura\\Persistencia\\CampeonatosFIFAContext.cs",
+              "ToolTip": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.infreaestructura\\Persistencia\\CampeonatosFIFAContext.cs",
+              "RelativeToolTip": "apicampeonatosfifa.infreaestructura\\Persistencia\\CampeonatosFIFAContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T18:14:52.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICampeonatoRepositorio.cs",
+              "DocumentMoniker": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.core\\repositorios\\ICampeonatoRepositorio.cs",
+              "RelativeDocumentMoniker": "apicampeonatosfifa.core\\repositorios\\ICampeonatoRepositorio.cs",
+              "ToolTip": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.core\\repositorios\\ICampeonatoRepositorio.cs",
+              "RelativeToolTip": "apicampeonatosfifa.core\\repositorios\\ICampeonatoRepositorio.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T18:18:14.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ISeleccionRepositorio.cs",
               "DocumentMoniker": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.core\\repositorios\\ISeleccionRepositorio.cs",
               "RelativeDocumentMoniker": "apicampeonatosfifa.core\\repositorios\\ISeleccionRepositorio.cs",
               "ToolTip": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.core\\repositorios\\ISeleccionRepositorio.cs",
               "RelativeToolTip": "apicampeonatosfifa.core\\repositorios\\ISeleccionRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-03T17:24:12.018Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IGrupoServicio.cs",
-              "DocumentMoniker": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.core\\servicios\\IGrupoServicio.cs",
-              "RelativeDocumentMoniker": "apicampeonatosfifa.core\\servicios\\IGrupoServicio.cs",
-              "ToolTip": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.core\\servicios\\IGrupoServicio.cs",
-              "RelativeToolTip": "apicampeonatosfifa.core\\servicios\\IGrupoServicio.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAowAMAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T17:43:06.961Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "ISeleccionServicio.cs",
               "DocumentMoniker": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.core\\servicios\\ISeleccionServicio.cs",
               "RelativeDocumentMoniker": "apicampeonatosfifa.core\\servicios\\ISeleccionServicio.cs",
@@ -130,12 +139,35 @@
               "RelativeToolTip": "apicampeonatosfifa.core\\servicios\\ISeleccionServicio.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T18:28:51.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-03T18:28:51.886Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
+              "Title": "IGrupoServicio.cs",
+              "DocumentMoniker": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.core\\servicios\\IGrupoServicio.cs",
+              "RelativeDocumentMoniker": "apicampeonatosfifa.core\\servicios\\IGrupoServicio.cs",
+              "ToolTip": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.core\\servicios\\IGrupoServicio.cs",
+              "RelativeToolTip": "apicampeonatosfifa.core\\servicios\\IGrupoServicio.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowAMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T17:43:06.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IGrupoRepositorio.cs",
+              "DocumentMoniker": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.core\\repositorios\\IGrupoRepositorio.cs",
+              "RelativeDocumentMoniker": "apicampeonatosfifa.core\\repositorios\\IGrupoRepositorio.cs",
+              "ToolTip": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.core\\repositorios\\IGrupoRepositorio.cs",
+              "RelativeToolTip": "apicampeonatosfifa.core\\repositorios\\IGrupoRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-03T17:38:23.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "IFaseRepositorio.cs",
               "DocumentMoniker": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.core\\repositorios\\IFaseRepositorio.cs",
               "RelativeDocumentMoniker": "apicampeonatosfifa.core\\repositorios\\IFaseRepositorio.cs",
@@ -143,12 +175,11 @@
               "RelativeToolTip": "apicampeonatosfifa.core\\repositorios\\IFaseRepositorio.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T18:17:04.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-03T18:17:04.17Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "IEstadioRepositorio.cs",
               "DocumentMoniker": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.core\\repositorios\\IEstadioRepositorio.cs",
               "RelativeDocumentMoniker": "apicampeonatosfifa.core\\repositorios\\IEstadioRepositorio.cs",
@@ -156,12 +187,11 @@
               "RelativeToolTip": "apicampeonatosfifa.core\\repositorios\\IEstadioRepositorio.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T18:17:42.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-03T18:17:42.888Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "IEncuentroRepositorio.cs",
               "DocumentMoniker": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.core\\repositorios\\IEncuentroRepositorio.cs",
               "RelativeDocumentMoniker": "apicampeonatosfifa.core\\repositorios\\IEncuentroRepositorio.cs",
@@ -169,12 +199,11 @@
               "RelativeToolTip": "apicampeonatosfifa.core\\repositorios\\IEncuentroRepositorio.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T18:26:12.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-03T18:26:12.667Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "ICiudadRepositorio.cs",
               "DocumentMoniker": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.core\\repositorios\\ICiudadRepositorio.cs",
               "RelativeDocumentMoniker": "apicampeonatosfifa.core\\repositorios\\ICiudadRepositorio.cs",
@@ -182,64 +211,11 @@
               "RelativeToolTip": "apicampeonatosfifa.core\\repositorios\\ICiudadRepositorio.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T18:17:25.848Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ICampeonatoRepositorio.cs",
-              "DocumentMoniker": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.core\\repositorios\\ICampeonatoRepositorio.cs",
-              "RelativeDocumentMoniker": "apicampeonatosfifa.core\\repositorios\\ICampeonatoRepositorio.cs",
-              "ToolTip": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.core\\repositorios\\ICampeonatoRepositorio.cs",
-              "RelativeToolTip": "apicampeonatosfifa.core\\repositorios\\ICampeonatoRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T18:18:14.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ICampeonatoPaisRepositorio.cs",
-              "DocumentMoniker": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.core\\repositorios\\ICampeonatoPaisRepositorio.cs",
-              "RelativeDocumentMoniker": "apicampeonatosfifa.core\\repositorios\\ICampeonatoPaisRepositorio.cs",
-              "ToolTip": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.core\\repositorios\\ICampeonatoPaisRepositorio.cs",
-              "RelativeToolTip": "apicampeonatosfifa.core\\repositorios\\ICampeonatoPaisRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T18:18:38.376Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CampeonatosFIFAContext.cs",
-              "DocumentMoniker": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.infreaestructura\\Persistencia\\CampeonatosFIFAContext.cs",
-              "RelativeDocumentMoniker": "apicampeonatosfifa.infreaestructura\\Persistencia\\CampeonatosFIFAContext.cs",
-              "ToolTip": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.infreaestructura\\Persistencia\\CampeonatosFIFAContext.cs",
-              "RelativeToolTip": "apicampeonatosfifa.infreaestructura\\Persistencia\\CampeonatosFIFAContext.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAowAoAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T18:14:52.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-03T18:17:25.848Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "SeleccionRepositorio.cs",
-              "DocumentMoniker": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.infreaestructura\\Repositorios\\SeleccionRepositorio.cs",
-              "RelativeDocumentMoniker": "apicampeonatosfifa.infreaestructura\\Repositorios\\SeleccionRepositorio.cs",
-              "ToolTip": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.infreaestructura\\Repositorios\\SeleccionRepositorio.cs",
-              "RelativeToolTip": "apicampeonatosfifa.infreaestructura\\Repositorios\\SeleccionRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T17:26:15.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "TablaPosicionDto.cs",
               "DocumentMoniker": "C:\\Catedra\\IU Pascual Bravo\\HP III\\Cursos\\Curso 2026-2\\Ejercicios\\Proyecto api Campeonatos FIFA\\apicampeonatosfifa.dominio\\Dtos\\TablaPosicionDto.cs",
               "RelativeDocumentMoniker": "apicampeonatosfifa.dominio\\Dtos\\TablaPosicionDto.cs",
@@ -247,8 +223,7 @@
               "RelativeToolTip": "apicampeonatosfifa.dominio\\Dtos\\TablaPosicionDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T18:04:17.718Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-03T18:04:17.718Z"
             }
           ]
         }
