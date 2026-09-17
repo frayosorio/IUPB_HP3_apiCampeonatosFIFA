@@ -8,7 +8,7 @@ using System.Text;
 
 namespace apicampeonatosfifa.infraestructura.Repositorios
 {
-    public  class EstadioRepositorio:IEstadioRepositorio
+    public class EstadioRepositorio : IEstadioRepositorio
     {
 
         private readonly CampeonatosFIFAContext contexto;
@@ -17,9 +17,14 @@ namespace apicampeonatosfifa.infraestructura.Repositorios
         {
             this.contexto = contexto;
         }
-        public Task<Estadio> Agregar(Estadio Estadio)
+        public async Task<Estadio> Agregar(Estadio Estadio)
         {
-            throw new NotImplementedException();
+            // agregar elemento al DbSet
+            contexto.Estadios.Add(Estadio);
+            // llevar los cambios a la base de datos
+            await contexto.SaveChangesAsync();
+            //retornar registro agregado
+            return contexto.Estadios.FirstOrDefault(estadio => estadio.Id == Estadio.Id);
         }
 
         public async Task<IEnumerable<Estadio>> Buscar(int IndiceDato, string Texto)
@@ -32,14 +37,42 @@ namespace apicampeonatosfifa.infraestructura.Repositorios
             .ToArrayAsync();
         }
 
-        public Task<bool> Eliminar(int Id)
+        public  async Task<bool> Eliminar(int Id)
         {
-            throw new NotImplementedException();
+            var EstadioExistente = await contexto.Estadios.FindAsync(Id);
+            if (EstadioExistente == null)
+            {
+                return false;
+            }
+            try
+            {
+                //quitar elemento del dbset
+                contexto.Estadios.Remove(EstadioExistente);
+                // llevar los cambios a la base de datos
+                await contexto.SaveChangesAsync();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
         }
 
-        public Task<Estadio> Modificar(Estadio Estadio)
+        public async Task<Estadio> Modificar(Estadio Estadio)
         {
-            throw new NotImplementedException();
+            //buscar el elemento en el dbset
+            var EstadioExistente = await contexto.Estadios.FindAsync(Estadio.Id);
+            if (EstadioExistente == null)
+            {
+                return null;
+            }
+            //cambiar los datos en el elemento del dbset
+            contexto.Entry(EstadioExistente).CurrentValues.SetValues(Estadio);
+            // llevar los cambios a la base de datos
+            await contexto.SaveChangesAsync();
+
+            //retornar registro modificado
+            return contexto.Estadios.FirstOrDefault(estadio => estadio.Id == Estadio.Id);
         }
 
         public async Task<Estadio> Obtener(int Id)
