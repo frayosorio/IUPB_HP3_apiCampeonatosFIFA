@@ -2,9 +2,7 @@
 using apicampeonatosfifa.dominio;
 using apicampeonatosfifa.infraestructura.Persistencia;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using Microsoft.Extensions.Logging;
 
 namespace apicampeonatosfifa.infraestructura.Repositorios
 {
@@ -24,7 +22,7 @@ namespace apicampeonatosfifa.infraestructura.Repositorios
             // llevar los cambios a la base de datos
             await contexto.SaveChangesAsync();
             //retornar registro agregado
-            return contexto.Estadios.FirstOrDefault(estadio => estadio.Id == Estadio.Id);
+            return Estadio;
         }
 
         public async Task<IEnumerable<Estadio>> Buscar(int IndiceDato, string Texto)
@@ -54,6 +52,7 @@ namespace apicampeonatosfifa.infraestructura.Repositorios
             }
             catch (Exception ex)
             {
+                //logger.LogError(ex, "Error eliminando el estadio {Id}", Id);
                 return false;
             }
         }
@@ -72,7 +71,7 @@ namespace apicampeonatosfifa.infraestructura.Repositorios
             await contexto.SaveChangesAsync();
 
             //retornar registro modificado
-            return contexto.Estadios.FirstOrDefault(estadio => estadio.Id == Estadio.Id);
+            return EstadioExistente;
         }
 
         public async Task<Estadio> Obtener(int Id)

@@ -17,14 +17,15 @@ namespace apicampeonatosfifa.infraestructura.Repositorios
         {
             this.contexto = contexto;
         }
-        public Task<Ciudad> Agregar(Ciudad Ciudad)
+        public async Task<Ciudad> Agregar(Ciudad Ciudad)
         {
-            throw new NotImplementedException();
+            contexto.Ciudades.Add(Ciudad);
+            await contexto.SaveChangesAsync();
+            return Ciudad;
         }
 
         public async Task<IEnumerable<Ciudad>> Buscar(int IndiceDato, string Texto)
         {
-
             return await contexto.Ciudades
             .Where(ciudad => IndiceDato == 1 && ciudad.Nombre.Contains(Texto))
             .Include(ciudad => ciudad.Pais)
@@ -32,14 +33,35 @@ namespace apicampeonatosfifa.infraestructura.Repositorios
             .ToArrayAsync();
         }
 
-        public Task<bool> Eliminar(int Id)
+        public async Task<bool> Eliminar(int Id)
         {
-            throw new NotImplementedException();
+            var CiudadExistente = await contexto.Ciudades.FindAsync(Id);
+            if (CiudadExistente == null)
+            {
+                return false;
+            }
+            try
+            {
+                contexto.Ciudades.Remove(CiudadExistente);
+                await contexto.SaveChangesAsync();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
         }
 
-        public Task<Ciudad> Modificar(Ciudad Ciudad)
+        public async Task<Ciudad> Modificar(Ciudad Ciudad)
         {
-            throw new NotImplementedException();
+            var CiudadExistente = await contexto.Ciudades.FindAsync(Ciudad.Id);
+            if (CiudadExistente == null)
+            {
+                return null;
+            }
+            contexto.Entry(CiudadExistente).CurrentValues.SetValues(Ciudad);
+            await contexto.SaveChangesAsync();
+            return CiudadExistente;
         }
 
         public async Task<Ciudad> Obtener(int Id)

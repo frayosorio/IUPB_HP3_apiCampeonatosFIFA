@@ -18,6 +18,15 @@ namespace apicampeonatosfifa.core.repositorios
 
         Task<bool> Eliminar(int Id);
 
+        // Selecciones
+        Task<IEnumerable<GrupoSeleccion>> ObtenerGrupo(int IdGrupo);
+
+        Task<GrupoSeleccion> AgregarSeleccion(GrupoSeleccion GrupoSeleccion);
+
+        Task<GrupoSeleccion> ModificarSeleccion(GrupoSeleccion GrupoSeleccion);
+
+        Task<bool> EliminarSeleccion(int IdGrupo, int IdSeleccion);
+
         // Tabla de Posiciones
         Task<IEnumerable<TablaPosicionDto>> ObtenerPosiciones(int Id);
 

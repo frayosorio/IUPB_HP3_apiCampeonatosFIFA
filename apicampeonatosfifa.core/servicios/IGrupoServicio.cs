@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using apicampeonatosfifa.dominio;
+﻿using apicampeonatosfifa.dominio;
+using apicampeonatosfifa.dominio.Dtos;
 
 namespace apicampeonatosfifa.core.servicios
 {
@@ -20,11 +18,11 @@ namespace apicampeonatosfifa.core.servicios
         // Selecciones
         Task<IEnumerable<GrupoSeleccion>> ObtenerGrupo(int IdGrupo);
 
-        Task<GrupoSeleccion> Agregar(GrupoSeleccion GrupoSeleccion);
+        Task<GrupoSeleccion> AgregarSeleccion(GrupoSeleccion GrupoSeleccion);
 
-        Task<GrupoSeleccion> Modificar(GrupoSeleccion GrupoSeleccion);
+        Task<GrupoSeleccion> ModificarSeleccion(GrupoSeleccion GrupoSeleccion);
 
-        Task<bool> Eliminar(int Id);
+        Task<bool> EliminarSeleccion(int Id);
 
         // Tabla de Posiciones
         Task<IEnumerable<TablaPosicionDto>> ObtenerPosiciones(int Id);

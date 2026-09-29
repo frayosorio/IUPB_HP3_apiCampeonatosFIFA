@@ -12,7 +12,6 @@ namespace apicampeonatosfifa.dominio.Dtos
         int PG { get; set; }
         int PE { get; set; }
         int PP { get; set; }
-        int PJ { get; set; }
         int GF { get; set; }
         int GC { get; set; }
         int Diferencia { get; set; }

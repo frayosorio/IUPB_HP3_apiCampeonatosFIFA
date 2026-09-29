@@ -8,6 +8,11 @@ namespace apicampeonatosfifa.infraestructura.Persistencia
 {
     public class CampeonatosFIFAContext : DbContext
     {
+        public CampeonatosFIFAContext(DbContextOptions<CampeonatosFIFAContext> opciones) : base(opciones)
+        {
+
+        }
+
         public DbSet<Seleccion> Selecciones { get; set; }
         public DbSet<Campeonato> Campeonatos { get; set; }
         public DbSet<Ciudad> Ciudades { get; set; }
@@ -74,7 +79,7 @@ namespace apicampeonatosfifa.infraestructura.Persistencia
             constructor.Entity<Ciudad>(entidadCiudad =>
             {
                 entidadCiudad.HasKey(e => e.Id); // Clave primaria
-                entidadCiudad.HasIndex(e => new {e.IdPais, e.Nombre }).IsUnique(); // Indice
+                entidadCiudad.HasIndex(e => new { e.IdPais, e.Nombre }).IsUnique(); // Indice
             }
                 );
 

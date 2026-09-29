@@ -1,16 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
-    <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\apicampeonatosfifa.aplicacion\apicampeonatosfifa.aplicacion.csproj" />
     <ProjectReference Include="..\apicampeonatosfifa.core\apicampeonatosfifa.core.csproj" />
     <ProjectReference Include="..\apicampeonatosfifa.dominio\apicampeonatosfifa.dominio.csproj" />
-    <ProjectReference Include="..\apicampeonatosfifa.infreaestructura\apicampeonatosfifa.infraestructura.csproj" />
   </ItemGroup>
 
 </Project>
