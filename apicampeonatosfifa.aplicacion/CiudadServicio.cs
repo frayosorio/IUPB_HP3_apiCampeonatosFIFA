@@ -15,7 +15,14 @@ namespace apicampeonatosfifa.aplicacion
 
         public async Task<Ciudad> Agregar(Ciudad Ciudad)
         {
-            return await repositorio.Agregar(Ciudad);
+            try
+            {
+                return await repositorio.Agregar(Ciudad);
+            }
+            catch(Exception ex)
+            {
+                throw new InvalidOperationException(ex.Message);
+            }
         }
 
         public async Task<IEnumerable<Ciudad>> Buscar(int IndiceDato, string Texto)

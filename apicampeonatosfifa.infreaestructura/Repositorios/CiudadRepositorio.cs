@@ -19,9 +19,16 @@ namespace apicampeonatosfifa.infraestructura.Repositorios
         }
         public async Task<Ciudad> Agregar(Ciudad Ciudad)
         {
-            contexto.Ciudades.Add(Ciudad);
-            await contexto.SaveChangesAsync();
-            return Ciudad;
+            try
+            {
+                contexto.Ciudades.Add(Ciudad);
+                await contexto.SaveChangesAsync();
+                return Ciudad;
+            }
+            catch (Exception ex)
+            {
+                throw new InvalidOperationException($"Ya existe una Ciudad con Nombre={Ciudad.Nombre}.");
+            }
         }
 
         public async Task<IEnumerable<Ciudad>> Buscar(int IndiceDato, string Texto)

@@ -43,7 +43,7 @@ namespace presentacion.Controladores
             return Ok(Ciudad);
         }
 
-        [HttpGet("/{IndiceDato:int}/{Texto}")]
+        [HttpGet("{IndiceDato:int}/{Texto}")]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(IEnumerable<Ciudad>))]
         public async Task<ActionResult<IEnumerable<Ciudad>>> Buscar(int IndiceDato, string Texto)
         {
@@ -59,8 +59,18 @@ namespace presentacion.Controladores
             {
                 return BadRequest(ModelState);
             }
-            var nuevaCiudad = await servicio.Agregar(Ciudad);
-            return CreatedAtAction(nameof(Obtener), nuevaCiudad);
+            try
+            {
+                var nuevaCiudad = await servicio.Agregar(Ciudad);
+                return CreatedAtAction(nameof(Obtener), new { Id = nuevaCiudad.Id }, nuevaCiudad);
+            }
+            catch(Exception ex)
+            {
+                return Conflict(new
+                {
+                    mensaje = ex.Message
+                });
+            }
         }
 
 

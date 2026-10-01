@@ -38,7 +38,7 @@ namespace presentacion.Controladores
             return Ok(seleccion);
         }
 
-        [HttpGet("/{IndiceDato:int}/{Texto}")]
+        [HttpGet("{IndiceDato:int}/{Texto}")]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(IEnumerable<Seleccion>))]
         public async Task<ActionResult<IEnumerable<Seleccion>>> Buscar(int IndiceDato, string Texto)
         {
@@ -55,7 +55,7 @@ namespace presentacion.Controladores
                 return BadRequest(ModelState);
             }
             var nuevaSeleccion = await servicio.Agregar(Seleccion);
-            return CreatedAtAction(nameof(Obtener), nuevaSeleccion);
+            return CreatedAtAction(nameof(Obtener), new { Id = nuevaSeleccion.Id }, nuevaSeleccion);
         }
 
 
