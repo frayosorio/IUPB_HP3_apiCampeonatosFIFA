@@ -58,6 +58,35 @@ namespace presentacion.Controladores
             return CreatedAtAction(nameof(Obtener), new { Id = nuevaSeleccion.Id }, nuevaSeleccion);
         }
 
+        [HttpPut]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(Seleccion))]
+        public async Task<ActionResult<Seleccion>> Modificar([FromBody] Seleccion Seleccion)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            var modificado = await servicio.Modificar(Seleccion);
+            if (modificado == null)
+            {
+                return NotFound(new { mensaje = $"No se encontró la selección con ID {Seleccion.Id} para modificar." });
+            }
 
+            return Ok(modificado);
+        }
+
+        [HttpDelete("{Id:int}")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public async Task<ActionResult> Eliminar(int Id)
+        {
+            var eliminado = await servicio.Eliminar(Id);
+            if (!eliminado)
+            {
+                return NotFound(new { mensaje = $"No se pudo eliminar la Selección con ID {Id}" });
+            }
+
+            return NoContent();
+        }
     }
 }

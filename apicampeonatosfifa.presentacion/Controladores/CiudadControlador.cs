@@ -73,7 +73,35 @@ namespace presentacion.Controladores
             }
         }
 
+        [HttpPut]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(Ciudad))]
+        public async Task<ActionResult<Ciudad>> Modificar([FromBody] Ciudad Ciudad)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            var modificado = await servicio.Modificar(Ciudad);
+            if (modificado == null)
+            {
+                return NotFound(new { mensaje = $"No se encontró la selección con ID {Ciudad.Id} para modificar." });
+            }
 
+            return Ok(modificado);
+        }
 
+        [HttpDelete("{Id:int}")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public async Task<ActionResult> Eliminar(int Id)
+        {
+            var eliminado = await servicio.Eliminar(Id);
+            if (!eliminado)
+            {
+                return NotFound(new { mensaje = $"No se pudo eliminar la Selección con ID {Id}" });
+            }
+
+            return NoContent();
+        }
     }
 }

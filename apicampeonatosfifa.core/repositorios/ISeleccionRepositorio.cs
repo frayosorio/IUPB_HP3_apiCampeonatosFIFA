@@ -1,4 +1,5 @@
 ﻿using apicampeonatosfifa.dominio;
+using apicampeonatosfifa.dominio.Dtos;
 
 namespace apicampeonatosfifa.core.repositorios
 {

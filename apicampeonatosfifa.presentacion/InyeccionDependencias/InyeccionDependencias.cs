@@ -23,10 +23,12 @@ namespace presentacion.InyeccionDependencias
             // agregar los repositorios
             servicios.AddTransient<ISeleccionRepositorio, SeleccionRepositorio>();
             servicios.AddTransient<ICiudadRepositorio, CiudadRepositorio>();
+            servicios.AddTransient<IGrupoRepositorio, GrupoRepositorio>();
 
             // agregar los servicios
             servicios.AddTransient<ISeleccionServicio, SeleccionServicio>();
             servicios.AddTransient<ICiudadServicio, CiudadServicio>();
+            servicios.AddTransient<IGrupoServicio, GrupoServicio>();
 
 
             return servicios;

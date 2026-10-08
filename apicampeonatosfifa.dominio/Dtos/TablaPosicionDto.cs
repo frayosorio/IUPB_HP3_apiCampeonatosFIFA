@@ -6,16 +6,16 @@ namespace apicampeonatosfifa.dominio.Dtos
 {
     public  class TablaPosicionDto
     {
-        int Posicion {  get; set; }
-        string Seleccion { get; set; }
-        int PJ {  get; set; }
-        int PG { get; set; }
-        int PE { get; set; }
-        int PP { get; set; }
-        int GF { get; set; }
-        int GC { get; set; }
-        int Diferencia { get; set; }
-        int Puntos { get; set; }
+        public int Posicion {  get; set; }
+        public string Pais { get; set; }
+        public int PJ {  get; set; }
+        public int PG { get; set; }
+        public int PE { get; set; }
+        public int PP { get; set; }
+        public int GF { get; set; }
+        public int GC { get; set; }
+        public int Diferencia { get; set; }
+        public int Puntos { get; set; }
 
     }
 }

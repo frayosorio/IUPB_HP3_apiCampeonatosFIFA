@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using apicampeonatosfifa.dominio;
+using apicampeonatosfifa.dominio.Dtos;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
-using apicampeonatosfifa.dominio;
+using System.Reflection.Emit;
 
 namespace apicampeonatosfifa.infraestructura.Persistencia
 {
@@ -22,6 +22,8 @@ namespace apicampeonatosfifa.infraestructura.Persistencia
         public DbSet<Encuentro> Encuentros { get; set; }
         public DbSet<CampeonatoPais> CampeonatosPaises { get; set; }
         public DbSet<GrupoSeleccion> GruposSelecciones { get; set; }
+
+        public DbSet<TablaPosicionDto> TablaPosiciones { get; set; }
 
         protected override void OnModelCreating(ModelBuilder constructor)
         {
@@ -101,6 +103,18 @@ namespace apicampeonatosfifa.infraestructura.Persistencia
                 .WithMany()
                 .HasForeignKey(e => e.IdCiudad); // Clave foránea
 
+            //DTOs
+
+            constructor.Entity<TablaPosicionDto>().HasNoKey();
+
+        }
+
+        public async Task<IEnumerable<TablaPosicionDto>> getTablaPosiciones(int IdGrupo)
+        {
+            return await this.Set<TablaPosicionDto>()
+                .FromSqlRaw("SELECT * FROM fTablaPosicionesGrupo(@IdGrupo) ORDER BY Puntos DESC",
+                new SqlParameter("@IdGrupo", IdGrupo))
+                .ToListAsync();
         }
     }
 }
