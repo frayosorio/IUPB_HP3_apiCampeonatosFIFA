@@ -61,13 +61,16 @@ namespace apicampeonatosfifa.infraestructura.Repositorios
 
         public async Task<Ciudad> Modificar(Ciudad Ciudad)
         {
-            var CiudadExistente = await contexto.Ciudades.FindAsync(Ciudad.Id);
+            var CiudadExistente = await contexto.Ciudades
+                .Include(ciudad => ciudad.Pais)
+                .FirstOrDefaultAsync(ciudad => ciudad.Id == Ciudad.Id);
             if (CiudadExistente == null)
             {
                 return null;
             }
             contexto.Entry(CiudadExistente).CurrentValues.SetValues(Ciudad);
             await contexto.SaveChangesAsync();
+            CiudadExistente.Pais = Ciudad.Pais;
             return CiudadExistente;
         }
 
