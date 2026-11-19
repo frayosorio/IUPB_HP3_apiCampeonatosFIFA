@@ -49,14 +49,14 @@ namespace apicampeonatosfifa.aplicacion
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<Grupo>> ObtenerCampeonato(int IdCampeonato)
+        public async Task<IEnumerable<Grupo>> ObtenerCampeonato(int IdCampeonato)
         {
-            throw new NotImplementedException();
+            return await repositorio.ObtenerCampeonato(IdCampeonato);
         }
 
-        public Task<IEnumerable<GrupoSeleccion>> ObtenerGrupo(int IdGrupo)
+        public async Task<IEnumerable<GrupoSeleccion>> ObtenerGrupo(int IdGrupo)
         {
-            throw new NotImplementedException();
+            return await repositorio.ObtenerGrupo(IdGrupo);
         }
 
 

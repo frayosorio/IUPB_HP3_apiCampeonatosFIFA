@@ -16,6 +16,23 @@ namespace presentacion.Controladores
             this.servicio = servicio;
         }
 
+        [HttpGet("campeonato/{IdCampeonato:int}")]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(IEnumerable<TablaPosicionDto>))]
+        public async Task<ActionResult<IEnumerable<Grupo>>> ObtenerCampeonato(int IdCampeonato)
+        {
+            var lista = await servicio.ObtenerCampeonato(IdCampeonato);
+            return Ok(lista);
+        }
+
+        [HttpGet("selecciones/{IdGrupo:int}")]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(IEnumerable<TablaPosicionDto>))]
+        public async Task<ActionResult<IEnumerable<Grupo>>> ObtenerGrupo(int IdGrupo)
+        {
+            var lista = await servicio.ObtenerGrupo(IdGrupo);
+            return Ok(lista);
+        }
+
+
         [HttpGet("posiciones/{IdGrupo:int}")]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(IEnumerable<TablaPosicionDto>))]
         public async Task<ActionResult<IEnumerable<TablaPosicionDto>>> ObtenerPosiciones(int IdGrupo)

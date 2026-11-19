@@ -9,6 +9,11 @@ namespace apicampeonatosfifa.infraestructura.Repositorios
     {
         private CampeonatosFIFAContext contexto;
 
+        public CampeonatoRepositorio(CampeonatosFIFAContext contexto)
+        {
+            this.contexto = contexto;
+        }
+
         public Task<Campeonato> Agregar(Campeonato Campeonato)
         {
             throw new NotImplementedException();

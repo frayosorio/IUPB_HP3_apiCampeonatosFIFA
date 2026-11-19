@@ -24,11 +24,13 @@ namespace presentacion.InyeccionDependencias
             servicios.AddTransient<ISeleccionRepositorio, SeleccionRepositorio>();
             servicios.AddTransient<ICiudadRepositorio, CiudadRepositorio>();
             servicios.AddTransient<IGrupoRepositorio, GrupoRepositorio>();
+            servicios.AddTransient<ICampeonatoRepositorio, CampeonatoRepositorio>();
 
             // agregar los servicios
             servicios.AddTransient<ISeleccionServicio, SeleccionServicio>();
             servicios.AddTransient<ICiudadServicio, CiudadServicio>();
             servicios.AddTransient<IGrupoServicio, GrupoServicio>();
+            servicios.AddTransient<ICampeonatoServicio, CampeonatoServicio>();
 
 
             return servicios;

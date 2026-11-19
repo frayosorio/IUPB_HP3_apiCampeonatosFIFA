@@ -60,6 +60,19 @@ namespace apicampeonatosfifa.infraestructura.Persistencia
                 .WithMany()
                 .HasForeignKey(e => e.IdPais); // Clave foránea
 
+
+            // Tabla GRUPO
+            constructor.Entity<Grupo>(entidadGrupo =>
+            {
+                entidadGrupo.HasKey(e => e.Id); // Clave primaria
+                entidadGrupo.HasIndex(e => e.Nombre).IsUnique(); // Indice
+            });
+
+            constructor.Entity<Grupo>()
+                .HasOne(e => e.Campeonato)
+                .WithMany()
+                .HasForeignKey(e => e.IdCampeonato); // Clave foránea
+
             // Tabla GRUPOPAIS
             constructor.Entity<GrupoSeleccion>(entidadGrupoSeleccion =>
             {

@@ -2,6 +2,7 @@
 using apicampeonatosfifa.dominio;
 using apicampeonatosfifa.dominio.Dtos;
 using apicampeonatosfifa.infraestructura.Persistencia;
+using Microsoft.EntityFrameworkCore;
 
 namespace apicampeonatosfifa.infraestructura.Repositorios
 {
@@ -48,14 +49,21 @@ namespace apicampeonatosfifa.infraestructura.Repositorios
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<Grupo>> ObtenerCampeonato(int IdCampeonato)
+        public async Task<IEnumerable<Grupo>> ObtenerCampeonato(int IdCampeonato)
         {
-            throw new NotImplementedException();
+            return await contexto.Grupos
+                .Where(item => (item.IdCampeonato == IdCampeonato))
+                .Include(e => e.Campeonato)   // Incluir el objeto Campeonato
+                .ToArrayAsync();
         }
 
-        public Task<IEnumerable<GrupoSeleccion>> ObtenerGrupo(int IdGrupo)
+        public async Task<IEnumerable<GrupoSeleccion>> ObtenerGrupo(int IdGrupo)
         {
-            throw new NotImplementedException();
+            return await contexto.GruposSelecciones
+                .Where(item => item.IdGrupo == IdGrupo)
+                .Include(e => e.Grupo)   // Incluir el objeto Grupo
+                .Include(e => e.Seleccion)   // Incluir el objeto Seleccion
+                .ToArrayAsync();
         }
 
         public async Task<IEnumerable<TablaPosicionDto>> ObtenerPosiciones(int Id)
